@@ -1,9 +1,9 @@
 var puntos = [];
-for ( var i = 0; i < 50; i ++ )
+for ( var i = 0; i < 360; i ++ )
 {
     puntos.push( new THREE.Vector2(
-                     Math.cos( i * 0.2 ) * 20 + 50,
-                     ( i - 5 ) * 2 ) );
+                     Math.cos( (i * 3.1416)/180 ) * 50 + 50,
+                     ( i ) );
 }
 var forma = new THREE.LatheGeometry(puntos);
 
