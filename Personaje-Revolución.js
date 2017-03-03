@@ -3,7 +3,7 @@ for ( var i = 0; i < 360; i ++ )
 {
     puntos.push( new THREE.Vector2(
                      Math.cos( (i * 3.1416)/180 ) * 50 + 50,
-                     ( i ) );
+                     ( i - 5) * 2 );
 }
 var forma = new THREE.LatheGeometry(puntos);
 
