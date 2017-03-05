@@ -12,6 +12,11 @@ figura.lineTo(20, 75);
 figura.lineTo(27, 55);
 figura.lineTo(20, 20);
 
+figura.lineTo(60, 20);
+figura.lineTo(60, 0);
+figura.lineTo(20, 0);
+figura.lineTo(20, 20);
+
 var forma = new THREE.ExtrudeGeometry( figura,
                                        {amount: 10} );
 var material = new THREE.MeshNormalMaterial();
