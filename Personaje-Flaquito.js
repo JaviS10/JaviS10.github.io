@@ -4,7 +4,7 @@ var soporteForma = new THREE.CylinderGeometry(0.5, 0.5, 10);
 var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 
 //soporteForma.rotateZ( Math.PI/2);
-soporteForma.translate(0, -5, 0);
+soporteForma.translate(-5, 5, 0);
 baseForma.translate(0,-10,0);
 cabezaForma.translate(0, 4, 0);
 PeloForma.translate(0 ,5, 0);
