@@ -1,14 +1,14 @@
 var sombreroForma = new THREE.CylinderGeometry(2, 5, 2);
-var cabezaForma = new THREE.SphereGeometry(2);
+var cabezaForma = new THREE.SphereGeometry(3);
 var cuerpoForma = new THREE.SphereGeometry(5);
 var soporteForma = new THREE.CylinderGeometry(1.5, 1.5, 5);
 var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 
 //soporteForma.rotateZ( Math.PI/4);
 soporteForma.translate(0, -4, 0);
-baseForma.translate(0,-8,0);
+baseForma.translate(0,-7,0);
 cuerpoForma.translate(0, 1.5, 0);
-cabezaForma.translate(0, 4, 0);
+cabezaForma.translate(0, 6, 0);
 sombreroForma.translate(0 ,10, 0);
 
 var sombreroMalla = new THREE.Mesh(sombreroForma);
