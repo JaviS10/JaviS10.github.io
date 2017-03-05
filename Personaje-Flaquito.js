@@ -4,10 +4,10 @@ var soporteForma = new THREE.CylinderGeometry(0.75, 0.75, 8);
 var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 
 //soporteForma.rotateZ( Math.PI/2);
-soporteForma.translate(0, -4, 0);
-baseForma.translate(0,-8,0);
-cabezaForma.translate(0, 0, 0);
-PeloForma.translate(0 ,2, 0);
+soporteForma.translate(0, 0, 0);
+baseForma.translate(0,-4,0);
+cabezaForma.translate(0, 0.5, 0);
+PeloForma.translate(0 ,1.5, 0);
 
 var PeloMalla = new THREE.Mesh(PeloForma);
 var cabezaMalla = new THREE.Mesh(cabezaForma);
