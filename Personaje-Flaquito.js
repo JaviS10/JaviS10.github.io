@@ -3,7 +3,7 @@ var cabezaForma = new THREE.SphereGeometry(1.5);
 var soporteForma = new THREE.CylinderGeometry(1.5, 1.5, 10);
 var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 
-soporteForma.rotateZ( Math.PI/2);
+//soporteForma.rotateZ( Math.PI/2);
 soporteForma.translate(0, -5, 0);
 baseForma.translate(0,-10,0);
 cabezaForma.translate(0, 4, 0);
