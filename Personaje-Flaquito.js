@@ -6,8 +6,8 @@ var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 //soporteForma.rotateZ( Math.PI/2);
 soporteForma.translate(0, 0, 0);
 baseForma.translate(0,-4,0);
-cabezaForma.translate(0, 0.5, 0);
-PeloForma.translate(0 ,1.5, 0);
+cabezaForma.translate(0, 4.5, 0);
+PeloForma.translate(0 ,5.5, 0);
 
 var PeloMalla = new THREE.Mesh(PeloForma);
 var cabezaMalla = new THREE.Mesh(cabezaForma);
