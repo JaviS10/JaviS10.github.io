@@ -8,7 +8,7 @@ var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 soporteForma.translate(0, -4, 0);
 baseForma.translate(0,-7,0);
 cuerpoForma.translate(0, 1.5, 0);
-cabezaForma.translate(0, 6, 0);
+cabezaForma.translate(0, 7, 0);
 sombreroForma.translate(0 ,10, 0);
 
 var sombreroMalla = new THREE.Mesh(sombreroForma);
