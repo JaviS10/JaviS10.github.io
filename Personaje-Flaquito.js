@@ -1,6 +1,6 @@
 var PeloForma = new THREE.CylinderGeometry(5, 2, 3);
 var cabezaForma = new THREE.SphereGeometry(2);
-var soporteForma = new THREE.CylinderGeometry(0.75, 0.75, 8);
+var soporteForma = new THREE.CylinderGeometry(0.5, 0.5, 8);
 var baseForma = new THREE.CylinderGeometry(5, 5, 1);
 
 //soporteForma.rotateZ( Math.PI/2);
