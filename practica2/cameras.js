@@ -1,4 +1,4 @@
-//-----Personaje Gordito.
+/*-----Personaje Gordito.
 var sombreroForma1 = new THREE.CylinderGeometry(2, 5, 2);
 var cabezaForma1 = new THREE.SphereGeometry(3);
 var cuerpoForma1 = new THREE.SphereGeometry(5);
@@ -27,7 +27,7 @@ arbolForma1.merge(baseMalla1.geometry, baseMalla1.matrix);
 
 var material1 = new THREE.MeshNormalMaterial();
 var arbolMalla1 = new THREE.Mesh(arbolForma1, material1);
-escena.add(arbolMalla1);
+escena.add(arbolMalla1);*/
 //---Personaje Flaquito
 
 var PeloForma2 = new THREE.CylinderGeometry(5, 2, 3);
