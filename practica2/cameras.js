@@ -26,7 +26,7 @@ arbolForma1.merge(soporteMalla1.geometry, soporteMalla1.matrix);
 arbolForma1.merge(baseMalla1.geometry, baseMalla1.matrix);
 
 var material1 = new THREE.MeshNormalMaterial();
-var arbolMalla1 = new THREE.Mesh(arbolForma1, material);
+var arbolMalla1 = new THREE.Mesh(arbolForma1, material1);
 escena.add(arbolMalla1);
 //---Personaje Flaquito
 
