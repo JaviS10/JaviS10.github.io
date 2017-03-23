@@ -15,22 +15,21 @@
   
 //}
 
-function setup(){
+function push(e){
+    if(e.keyCode === 65)
+      camara.position.z++;
+    else if(e.keyCode === 90)
+      camara.position.z--;
+}
+    	
+  	function setup(){
 	var listener=function(){
 	camara.aspect = window.innerWidth / window.innerHeight;
   	camara.updateProjectionMatrix();
   	renderer.setSize( window.innerWidth, window.innerHeight );
 	}
   
-  var push=function(e){
-    if(e.keyCode === 65){
-      camara.position.z++;
-    }else{
-	    if(e.keyCode === 90){
-      camara.position.z--;
- 		}
-    	}
-  }
+ 
   
   
   escena = new THREE.Scene();
